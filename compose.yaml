@@ -1,0 +1,6 @@
+name: account-service-hello-local
+services:
+  api:
+    build: .
+    ports:
+      - "127.0.0.1:38080:8000"

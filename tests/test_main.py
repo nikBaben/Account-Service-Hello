@@ -8,7 +8,7 @@ client = TestClient(app)
 def test_hello_world():
     response = client.get("/")
     assert response.status_code == 200
-    assert response.text == "hello world"
+    assert response.text == "hello world!!!"
     assert response.headers["content-type"].startswith("text/plain")
 
 
